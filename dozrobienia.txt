@@ -1,0 +1,11 @@
+zmienić numer
+kod pocztowy
+podłączyć elementy:
+-infinite scroll
+-kalkulator
+
+
+dać wersje bez bootsrapa
+te same treści w obu wersjach
+treści i zdjęcia
+filmiki na tło (kwadraty)

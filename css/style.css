@@ -1,0 +1,371 @@
+body {
+    background-color: #FFF;
+    font-family: 'Lato';
+    margin: 0;
+}
+#first{
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(255,255,255, 0.8);
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+}
+#middle{
+    width: 50%;
+    height: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    text-align: center;
+    overflow:auto;
+}
+#middle p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+padding: 20px 20px;
+}
+
+#navbar {
+    background-color: #FFF;
+    height: 60px;
+    z-index: 0;
+    margin: 0;
+/*    display: none;*/
+}
+#navbarNav{
+     justify-content: flex-end;
+}
+#navbarNav a{
+    color: #1ac056;
+    font-size: 20px;
+    line-height: 60px;
+}
+#top{
+    left:0;
+    margin-left: 30px;
+    display: inline;
+}
+#top a{
+    color: #1ac056;
+}
+#top .fa{
+    font-size: 50px;
+}
+header {
+    position: relative;
+    width: 100%;
+/*    margin-top: 60px;*/
+    background: url("../img/header-background.jpg") center top no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+header #welcome {
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#welcome h1, #welcome h2{
+    font-weight: 300;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #1ac056;
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+#welcome h2 {
+    font-size: 50px;
+}
+
+#opis {
+    width: 100%;
+    margin: 0;
+    height: 800px;
+}
+
+#omnie{
+    overflow: hidden;
+    background-color: #f9fcfe;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+-moz-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
+ margin: 20px 0;   
+}
+#omnie{
+    text-align: center;
+    padding: 60px 100px;
+}
+#omnie h2, #zdjkomp h2, #umie h2{
+    font-size: 30px;
+    }
+#omnie h2{
+        padding-bottom: 20px;
+       
+    }
+#omnie #omniecont{
+    text-align: center;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+#omnie #omniecont p {
+text-align: left;
+    font-size: 20px;
+}
+#omnie figure img{
+    height: 350px;
+    border: 5px solid white;
+    border-radius: 15px;
+    
+}
+#umie{
+text-align: center; 
+    padding: 40px 100px;
+}
+#umie h2, #umie p{
+    padding: 20px 0;
+}
+#umie #ikony{
+    justify-content: flex-end;
+    padding: 20px 300px;
+}
+#umie .imgic{
+    padding: 0px 10px;
+}
+#zdjkomp{
+    text-align: center;
+    padding: 60px 30px;
+}
+#zdjkomp h2{
+    padding-bottom: 40px;
+}
+#zdjkomp a{
+    color: #FFF;
+}
+#zdjkomp .trzyob{
+    height: 375px;
+    padding: 0;
+}
+#zdjkomp .trzyob.pierwszy{
+    background: url(../img/portfolio1.jpg) center center no-repeat;
+    background-size: cover;
+}
+#zdjkomp .trzyob.drugi{
+background: url(../img/portfolio2.jpg) center center no-repeat;
+background-size: cover;
+}
+#zdjkomp .trzyob.trzeci{
+    background: url(../img/portfolio4.jpg) center center no-repeat;
+background-size: cover;
+}
+.sr{
+    height: 100%;
+    
+}
+.maska:hover{
+    opacity: 1;
+}
+
+.maska{
+    background-color: rgba(33,59,80,0.4);
+    padding: 5px;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.border{
+    border: 2px solid white;
+    height: 100%;
+    position: relative;
+    padding: 5px;
+}
+.content{
+    color:#FFF;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+#stopka{
+    text-align: center;
+    background-color: #213b50;
+    padding: 60px 30px;
+    margin: 0;
+}
+#dane{
+    text-align: left;
+    background-color: #213b50;
+}
+#dane h2, #dane address{
+    color: #FFF;
+    font-weight: 300;
+}
+#dane h2{
+    font-size: 50px;
+}
+#dane address, #dane address a
+{
+    font-size: 25px;
+    font-style: normal; 
+}
+#dane address a{
+    color: #1ac056;
+    font-weight: bold;
+}
+#linki a{
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-width: 4px 4px 4px 4px;
+    border-style: solid;
+    color: #FFF;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+}
+#stopka form{
+    background-color: #213b50;
+    padding-top: 40px;
+}
+#stopka form p{
+    color: #FFF;
+}
+input, textarea{
+    border: none;
+    padding: 5px;
+    font-family: 'Lato';
+}
+form input[type='text'], form input[type='email'], form textarea{
+    width: 100%;
+    background-color: #2b4a64;
+}
+form input[type='submit']{
+    float: right;
+    font-size: 10px;
+    background-color: #1ac056;
+    color: #FFF;
+    font-family: "Roboto";
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+form input[type='submit']:hover{
+    background-color: darkgreen;
+}
+form input:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #FFF;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.2);
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.2);
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.2);
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.2);
+}
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.2);
+}
+textarea::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.2);
+}
+textarea:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.2);
+}
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.2);
+}
+footer{
+    text-align: left;
+    background-color: #020833;
+    color: white;
+    margin: 0;
+    padding: 8px 100px;
+}
+.clear{
+    clear: both;
+}
+#niepatrz{
+    display: inline;
+}
+#hidden{
+    position: fixed;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+#hidden #ukryty{
+    float: right;
+    height: 350px;
+    width:  18%;
+    overflow: visible;
+    text-align: center;
+}
+#hidden span{
+    display: inline-block;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 200px; 
+    width: 60%;
+    font-size: 25px;
+    color: #000;
+    background-color: #FFF;
+    border-color: transparent;
+    border-radius: 30%;
+    height: 80px;
+    border-style: solid
+}
+#hidden .bur{
+    height: 100%;
+    opacity: 1;
+}
+#hidden .img{
+background: url(../img/buraczek.png) center center no-repeat;
+background-size: cover;
+}
+#hidden .mask{
+opacity: 0;
+background: url(../img/maskaburaczek.png) center center no-repeat;
+background-size:cover;
+}
+#hidden .mask:hover{
+ opacity: 0.6;   
+}
+#hidden:focus .mask{
+ opacity: 0.6;
+    
+}
+
+#hidden #tekst{
+    color: #FFF;
+    padding-left: 80px;
+    padding-top: 200px;
+/*    line-height: 350px;*/
+    font-size: 20px;
+}
