@@ -1,0 +1,22 @@
+#navbar {
+    background: transparent;
+    transition: all, 0.4s;
+    
+        a {
+            color: #FFF;
+        }
+
+    #navbarNav {
+        justify-content: flex-end;
+        color: #FFF;
+        font-family: Montserrat;
+    }
+
+    .navbar-brand {
+        font-style: italic;
+        font-family: Montserrat;
+    }
+.back a{
+        font-weight: 800;
+    }
+}

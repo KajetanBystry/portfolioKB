@@ -1,0 +1,302 @@
+header {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/54/Do_i_look_funny_or_something.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh; }
+  header #mask {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+    header #mask #containerHead {
+      margin: 0; }
+      header #mask #containerHead h1,
+      header #mask #containerHead h2 {
+        color: #FFF; }
+      header #mask #containerHead h1 {
+        font-size: 50px;
+        font-family: Montserrat;
+        font-weight: 800; }
+      header #mask #containerHead h2 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+        font-family: DroidSerif; }
+      header #mask #containerHead .headBtn {
+        font-size: 20px;
+        border: none;
+        font-family: Montserrat; }
+
+#navbar {
+  background: transparent;
+  transition: all, 0.4s; }
+  #navbar a {
+    color: #FFF; }
+  #navbar #navbarNav {
+    justify-content: flex-end;
+    color: #FFF;
+    font-family: Montserrat; }
+  #navbar .navbar-brand {
+    font-style: italic;
+    font-family: Montserrat; }
+  #navbar .back a {
+    font-weight: 800; }
+
+#section1 {
+  text-align: center;
+  padding: 100px 50px; }
+  #section1 #servicesCont {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+  #section1 h1 {
+    font-family: Montserrat;
+    font-weight: 800; }
+  #section1 .fa {
+    font-size: 30px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: #0ed8d6;
+    color: #0ed8d6;
+    transition: all 0.3s linear; }
+    #section1 .fa:hover {
+      background-color: #0ed8d6;
+      color: #FFF;
+      transform: rotate(360deg);
+      transition: all 0.3s ease-in-out 0s; }
+  #section1 h2 {
+    font-family: DroidSerif;
+    color: #777777;
+    font-size: 15px; }
+  #section1 h3 {
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 800;
+    padding-bottom: 5px; }
+  #section1 p {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    color: #777777;
+    font-size: 15px; }
+  #section1 .servicePoints {
+    font-size: 100px;
+    text-align: center;
+    color: #FFF; }
+
+#portfolio {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f7f7f7; }
+  #portfolio h1 {
+    font-family: Montserrat;
+    font-weight: 800; }
+  #portfolio h2 {
+    font-family: DroidSerif;
+    color: #777777;
+    font-size: 15px; }
+  #portfolio .cont p {
+    font-family: RobotoSlab;
+    font-weight: 400;
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 15px; }
+  #portfolio .cont h3 {
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 15px; }
+  #portfolio .cont .overflow {
+    overflow: hidden;
+    height: 250px; }
+    #portfolio .cont .overflow .background {
+      height: 100%;
+      transition: all 0.4s; }
+      #portfolio .cont .overflow .background:hover {
+        transform: scale(1.2); }
+      #portfolio .cont .overflow .background .mask {
+        background-color: rgba(14, 216, 214, 0.8);
+        opacity: 0;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        transition: all 0.4s; }
+        #portfolio .cont .overflow .background .mask:hover {
+          opacity: 1; }
+        #portfolio .cont .overflow .background .mask .fa {
+          color: #FFF;
+          font-size: 30px;
+          display: inline-block; }
+    #portfolio .cont .overflow .pic1 {
+      background: url(../img/portfolio/chestnut_on_bracket.jpg) no-repeat center bottom;
+      background-size: cover; }
+    #portfolio .cont .overflow .pic2 {
+      background: url(../img/portfolio/typing_on_laptop.jpg) no-repeat center bottom;
+      background-size: cover; }
+    #portfolio .cont .overflow .pic3 {
+      background: url(../img/portfolio/child_with_blue_paint.jpg) no-repeat center bottom;
+      background-size: cover; }
+    #portfolio .cont .overflow .pic4 {
+      background: url(../img/portfolio/chaotic_paint.jpg) no-repeat center bottom;
+      background-size: cover; }
+    #portfolio .cont .overflow .pic5 {
+      background: url(../img/portfolio/house_with_blue_doors.jpg) no-repeat center bottom;
+      background-size: cover; }
+    #portfolio .cont .overflow .pic6 {
+      background: url(../img/portfolio/box_of_cookies.jpg) no-repeat center bottom;
+      background-size: cover; }
+
+#team {
+  text-align: center;
+  padding: 50px 0; }
+  #team h1 {
+    font-family: Montserrat;
+    font-weight: 800; }
+  #team h2 {
+    font-family: DroidSerif;
+    color: #777777;
+    font-size: 15px;
+    margin: 30px; }
+  #team .overflow {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 250px; }
+    #team .overflow .photo {
+      border: 0px solid;
+      border-color: transparent;
+      border-radius: 50%;
+      height: 100%;
+      width: 75%; }
+    #team .overflow .nr1 {
+      background: url(../img/team/man-1.jpg) no-repeat center center;
+      background-size: cover; }
+    #team .overflow .nr2 {
+      background: url(../img/team/man-2.jpg) no-repeat center center;
+      background-size: cover; }
+    #team .overflow .nr3 {
+      background: url(../img/team/woman-1.jpg) no-repeat center center;
+      background-size: cover; }
+  #team h3 {
+    font-family: Montserrat;
+    font-weight: 800;
+    margin: 20px; }
+  #team p {
+    font-family: Montserrat;
+    color: #777777;
+    font-size: 15px;
+    margin: 15px; }
+
+#team .fa {
+  font-size: 30px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: transparent;
+  color: #FFF;
+  transition: all 0.3s linear;
+  background-color: #222222; }
+  #team .fa:hover {
+    background-color: #0ed8d6; }
+
+#contact {
+  text-align: center;
+  background: url(../img/footer/world-map.jpg) no-repeat center center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 600px;
+  font-family: Montserrat; }
+  #contact #contactMask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); }
+  #contact h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    color: #FFF;
+    padding-top: 100px; }
+  #contact h2 {
+    font-family: DroidSerif;
+    color: #FFF;
+    font-size: 15px;
+    padding: 20px 0; }
+  #contact form {
+    padding-top: 50px; }
+    #contact form #input-3 {
+      text-align: right; }
+    #contact form #input-1 {
+      text-align: left; }
+    #contact form input, #contact form textarea {
+      border: 0px solid;
+      border-radius: 5px;
+      margin: 5px 0;
+      padding-left: 10px;
+      text-transform: uppercase; }
+    #contact form #input-1 textarea {
+      height: 140px;
+      width: 70%; }
+    #contact form #input-3 input {
+      height: 40px;
+      width: 70%; }
+    #contact form #submit {
+      background-color: #0ed8d6;
+      color: #FFF;
+      padding: 10px 30px;
+      font-weight: 600;
+      margin: 20px 0;
+      transition: all 0.4s;
+      text-transform: uppercase; }
+      #contact form #submit:hover {
+        background-color: #FFF;
+        color: #0ed8d6; }
+
+footer {
+  height: 50px;
+  padding: 5px 0; }
+  footer #copy {
+    display: flex;
+    margin: 0;
+    line-height: 47px; }
+
+footer .fa {
+  font-size: 30px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: transparent;
+  color: #FFF;
+  transition: all 0.3s linear;
+  background-color: #222222; }
+  footer .fa:hover {
+    background-color: #0ed8d6; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+@font-face {
+  font-family: DroidSerif;
+  src: url("../fonts/DroidSerif-italic.ttf");
+  font-style: italic; }
+
+#navbar.bgcolor {
+  background-color: rgba(14, 216, 214, 0.75); }

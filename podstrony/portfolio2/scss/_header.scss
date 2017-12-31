@@ -1,0 +1,37 @@
+@import '_flexcenter';
+
+header {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/54/Do_i_look_funny_or_something.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    #mask {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        margin: 0;
+        @include flexcenter;
+
+        #containerHead {
+            margin: 0;
+            h1,
+            h2 {
+                color: #FFF;
+            }
+            h1 {
+                font-size: 50px;
+                font-family: Montserrat;
+                font-weight: 800;
+            }
+            h2 {
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 300;
+                font-family: DroidSerif;
+            }
+            .headBtn {
+                font-size: 20px;
+                border: none;
+                font-family: Montserrat;
+            }
+        }
+    }
+}

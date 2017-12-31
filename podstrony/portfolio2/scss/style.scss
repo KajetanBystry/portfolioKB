@@ -1,0 +1,32 @@
+@import "color";
+
+@import '_header';
+
+@import '_navbar';
+
+@import "_section1";
+
+@import '_portfolio';
+
+@import '_team';
+
+@import '_contact';
+
+@import "_footer";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+@font-face{
+    font-family:DroidSerif;
+    src: url('../fonts/DroidSerif-italic.ttf');
+    font-style: italic;
+}
+
+
+#navbar.bgcolor {
+        background-color: rgba(14, 216, 214, 0.75);
+    }

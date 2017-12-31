@@ -1,0 +1,60 @@
+@import '_flexcenter';
+
+@import 'color';
+
+#section1{
+    text-align: center;
+    padding: 100px 50px;
+    
+    #servicesCont{
+    @include flexcenter;
+}
+    h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    
+}
+    .fa{
+    font-size: 30px;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: $light-blue;
+    color: $light-blue;
+    transition: all 0.3s linear;
+        
+        &:hover{
+    background-color: #0ed8d6;
+    color: #FFF;
+    transform:rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+}
+   h2{
+font-family: DroidSerif;
+    color: $grey;
+    font-size: 15px;
+} 
+  h3{
+    font-size: 15px;
+         font-family: Montserrat;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+    p{
+    font-family: RobotoSlab;
+    font-weight: 400;
+    color: $grey;
+    font-size: 15px;   
+}
+    .servicePoints{
+    font-size: 100px;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+}

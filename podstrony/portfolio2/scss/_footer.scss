@@ -1,0 +1,23 @@
+@import "color";
+
+@import 'iconsstyle';
+
+footer{
+    height: 50px;
+    padding: 5px 0;
+#copy{
+    display: flex;
+//    height: 100%;
+    margin: 0;
+    line-height: 47px;
+    }
+}
+    
+
+footer .fa{
+    @include iconstyle;
+        
+    &:hover{
+    background-color: $light-blue;
+}
+}

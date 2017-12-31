@@ -1,0 +1,65 @@
+@import 'iconsstyle';
+
+#team{
+    text-align: center;
+        padding: 50px 0;
+    
+    h1{
+      font-family: Montserrat;
+    font-weight: 800;
+}
+    
+    h2{
+    font-family: DroidSerif;
+    color: #777777;
+    font-size: 15px;
+    margin:30px;
+}
+    
+    .overflow{
+    @include flexcenter;
+    height: 250px; 
+           
+    .photo{
+    border: 0px solid;
+    border-color: transparent;
+    border-radius: 50%;
+    height: 100%;
+    width: 75%;
+}
+        
+.nr1{
+    background: url(../img/team/man-1.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.nr2{
+       background: url(../img/team/man-2.jpg) no-repeat center center;
+    background-size: cover; 
+}
+
+.nr3{
+    background: url(../img/team/woman-1.jpg) no-repeat center center;
+    background-size: cover; 
+}
+}
+    h3{
+       font-family: Montserrat;
+    font-weight: 800;
+    margin:20px;
+}
+    p{
+    font-family: Montserrat; 
+      color: #777777;
+    font-size: 15px;
+    margin:15px;
+}
+
+}
+#team .fa{
+    @include iconstyle;
+        
+        &:hover{
+    background-color: $light-blue;
+}
+}

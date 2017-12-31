@@ -1,0 +1,63 @@
+#contact {
+  text-align: center;
+  background: url(../img/footer/world-map.jpg) no-repeat center center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 600px;
+  font-family: Montserrat; 
+
+#contactMask {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+    h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #FFF;
+  padding-top: 100px; }
+    
+    h2 {
+  font-family: DroidSerif;
+  color: #FFF;
+  font-size: 15px;
+  padding: 20px 0; }
+    
+    form {
+  padding-top: 50px; 
+    
+    #input-3 {
+  text-align: right; }
+
+#input-1 {
+  text-align: left; }
+
+input, textarea {
+  border: 0px solid;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding-left: 10px;
+  text-transform: uppercase; }
+
+#input-1 textarea {
+  height: 140px;
+  width: 70%; }
+
+#input-3 input {
+  height: 40px;
+  width: 70%; }
+
+#submit {
+  background-color: #0ed8d6;
+  color: #FFF;
+  padding: 10px 30px;
+  font-weight: 600;
+  margin: 20px 0;
+  transition: all 0.4s;
+  text-transform: uppercase;
+    
+        &:hover {
+  background-color: #FFF;
+  color: #0ed8d6; }
+        }
+    }
+}

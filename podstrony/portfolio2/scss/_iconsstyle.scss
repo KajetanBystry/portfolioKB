@@ -1,0 +1,13 @@
+@mixin iconstyle{
+    font-size: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: transparent;
+    color: #FFF;
+    transition: all 0.3s linear;
+    background-color: #222222;
+}

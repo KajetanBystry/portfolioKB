@@ -1,0 +1,96 @@
+@import 'flexcenter';
+
+#portfolio {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+
+    h1 {
+        font-family: Montserrat;
+        font-weight: 800;
+    }
+    h2 {
+        font-family: DroidSerif;
+        color: #777777;
+        font-size: 15px;
+    }
+    .cont {
+        p {
+            font-family: RobotoSlab;
+            font-weight: 400;
+            color: #777777;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            font-size: 15px;
+            font-family: Montserrat;
+            font-weight: 800;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        .overflow {
+            overflow: hidden;
+            height: 250px;
+
+            .background {
+
+                height: 100%;
+                transition: all 0.4s;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+
+                .mask {
+                    background-color: rgba(14, 216, 214, 0.80);
+                    opacity: 0;
+                    height: 100%;
+                    @include flexcenter;
+                    transition: all 0.4s;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                    .fa {
+                        color: #FFF;
+                        font-size: 30px;
+                        display: inline-block;
+                    }
+
+                }
+                
+            }
+            .pic1 {
+    background: url(../img/portfolio/chestnut_on_bracket.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.pic2 {
+    background: url(../img/portfolio/typing_on_laptop.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.pic3 {
+    background: url(../img/portfolio/child_with_blue_paint.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.pic4 {
+    background: url(../img/portfolio/chaotic_paint.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.pic5 {
+    background: url(../img/portfolio/house_with_blue_doors.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+
+.pic6 {
+    background: url(../img/portfolio/box_of_cookies.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+        }
+
+    }
+}
