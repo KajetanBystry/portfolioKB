@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+body{
+    background: url('../img/1280px-Pure-mathematics-formul%C3%A6-blackboard.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#kalkulator {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 620px;
+    width: 400px;
+    background-color: darkslategray;
+    text-align: center;
+    margin: 10px 0;
+}
+#poletekstowe{
+width: 88%;    
+    height: 150px;
+      background-color: gray;
+    display: inline-block;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+#kalkulator .buttoncont{
+        padding: 10px 20px;
+}
+
+#kalkulator .btn{
+    display: inline-block;
+    width:20%;
+margin: 0 2%;
+    height: 60px;
+    box-shadow: 0px 5px #999;
+    border: transparent;
+    border-radius: 5%;
+    background-color: #000;
+    color: #FFF;
+    font-size: 30px;
+    outline: none;
+}
+
+#kalkulator .btn:hover{
+    background-color: #011;
+}
+
+#kalkulator .btn:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+    border: none;
+}
+
+
+#kalkulator .przycisk1, #kalkulator .przycisk16{
+    width:45%;
+    
+}
+
+#wpisz{
+    width: 100%;
+    height: 100%;
+    line-height: 150px;
+    font-size: 40px;
+}
+
+#kalkulator .btn.przycisk18 {
+    background-color: forestgreen;
+}
+
+#kalkulator .btn.przycisk1 {
+    background-color: dodgerblue;
+    box-shadow: 0 3px #00F;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background-color: #000;
+    
+    line-height: 40px;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+}

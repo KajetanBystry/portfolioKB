@@ -1,11 +1,15 @@
-zmienić numer
-kod pocztowy
-podłączyć elementy:
--infinite scroll
--kalkulator
+zmienić numer - zmieniony na play może viking
 
 
-dać wersje bez bootsrapa
-te same treści w obu wersjach
-treści i zdjęcia
-filmiki na tło (kwadraty)
+dać wersje bez bootsrapa?
+te same treści w obu wersjach?
+
+treści i zdjęcia:
+- o mnie sekcja- check
+-umiejętności- check
+
+dodatkowe rzeczy których się uczyłem (sololearn i nauka na klawiaturze)?
+
+WIFI FREE
+UPC26BBC75
+Internet4a

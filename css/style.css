@@ -28,7 +28,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-padding: 20px 20px;
+padding: 120px 20px;
 }
 
 #navbar {
@@ -36,7 +36,6 @@ padding: 20px 20px;
     height: 60px;
     z-index: 0;
     margin: 0;
-/*    display: none;*/
 }
 #navbarNav{
      justify-content: flex-end;
@@ -118,7 +117,6 @@ box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
     }
 #omnie h2{
         padding-bottom: 20px;
-       
     }
 #omnie #omniecont{
     text-align: center;
@@ -160,20 +158,23 @@ text-align: center;
 #zdjkomp a{
     color: #FFF;
 }
+#zdjkomp .trzyob h3{
+    padding-top: 15px;
+}
 #zdjkomp .trzyob{
     height: 375px;
     padding: 0;
 }
 #zdjkomp .trzyob.pierwszy{
-    background: url(../img/portfolio1.jpg) center center no-repeat;
+    background: url(../img/portfolio2.gif) center center no-repeat;
     background-size: cover;
 }
 #zdjkomp .trzyob.drugi{
-background: url(../img/portfolio2.jpg) center center no-repeat;
+background: url(../img/ezgif.com-video-to-gif.gif) center center no-repeat;
 background-size: cover;
 }
 #zdjkomp .trzyob.trzeci{
-    background: url(../img/portfolio4.jpg) center center no-repeat;
+    background: url(../img/kalkulatorgif.gif) center center no-repeat;
 background-size: cover;
 }
 .sr{
@@ -185,7 +186,7 @@ background-size: cover;
 }
 
 .maska{
-    background-color: rgba(33,59,80,0.4);
+    background-color: rgba(33,59,80,0.6);
     padding: 5px;
     transition: all 0.4s;
     opacity: 0;
@@ -242,7 +243,7 @@ background-size: cover;
 }
 #stopka form{
     background-color: #213b50;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 #stopka form p{
     color: #FFF;
@@ -255,6 +256,7 @@ input, textarea{
 form input[type='text'], form input[type='email'], form textarea{
     width: 100%;
     background-color: #2b4a64;
+    color: #FFF;
 }
 form input[type='submit']{
     float: right;
