@@ -11,6 +11,10 @@ body {
     z-index: 1;
     margin: 0;
 }
+#first a{
+    text-decoration: none;
+    color: #FFF;
+}
 #middle{
     width: 50%;
     height: 90%;

@@ -10,7 +10,10 @@ $(document).ready (function(){
            })
        }
    })
-    $("body").css("overflow", "hidden");
+    $('#welcome').css('margin-top', '60px');
+    $('#navbar').css('z-index', '1');
+    $('#first').css('display', 'none');
+    $("body").css("overflow", "auto");
 });
 
 
@@ -28,13 +31,6 @@ $('#ukryty').click(function(){
 $('#navbtn').click(function(){
     $('.nav-item').css('background-color', '#FFF');
 })
-
-//$('#enter').click(function(){
-//    $('#welcome').css('margin-top', '60px');
-//    $('#navbar').css('z-index', '1');
-//    $('#first').css('display', 'none');
-//    $("body").css("overflow", "auto");
-//})
 
 
 
