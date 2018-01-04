@@ -50,7 +50,6 @@ padding: 120px 20px;
     line-height: 60px;
 }
 #top{
-    left:0;
     margin-left: 30px;
     display: inline;
 }
@@ -63,7 +62,6 @@ padding: 120px 20px;
 header {
     position: relative;
     width: 100%;
-/*    margin-top: 60px;*/
     background: url("../img/header-background.jpg") center top no-repeat;
     background-size: cover;
     background-position: center center;
@@ -78,6 +76,7 @@ header #welcome {
     text-align: center;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 50px 0;/
 }
 
 #welcome h1, #welcome h2{
@@ -114,7 +113,8 @@ box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
 }
 #omnie{
     text-align: center;
-    padding: 60px 100px;
+    padding: 60px 0;
+    padding-right: 100px;
 }
 #omnie h2, #zdjkomp h2, #umie h2{
     font-size: 30px;
@@ -126,7 +126,6 @@ box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
     text-align: center;
     justify-content: flex-end;
     margin: 20px 0;
-    
 }
 #omnie #omniecont p {
 text-align: left;
@@ -212,6 +211,7 @@ background-size: cover;
     background-color: #213b50;
     padding: 60px 30px;
     margin: 0;
+    padding: 70px 120px;
 }
 #dane{
     text-align: left;
@@ -223,6 +223,7 @@ background-size: cover;
 }
 #dane h2{
     font-size: 50px;
+    padding-top: 20px;
 }
 #dane address, #dane address a
 {
@@ -245,6 +246,7 @@ background-size: cover;
     line-height: 80px;
     width: 80px;
 }
+    
 #stopka form{
     background-color: #213b50;
     padding-top: 20px;
