@@ -21,3 +21,16 @@ footer .fa{
     background-color: $light-blue;
 }
 }
+nav li{
+    list-style: none;
+}
+nav li a{
+    
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 600;
+}
+nav li a:hover{
+    text-decoration: none;
+    color:#0ed8d6;
+}
