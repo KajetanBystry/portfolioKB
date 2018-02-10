@@ -32,7 +32,25 @@ $('#navbtn').click(function(){
     $('.nav-item').css('background-color', '#FFF');
 })
 
+$('.imgic4').hover(function(){
+    $(".jquery").attr("src", function(index, attr){
+        return attr.replace("jquery.png", "jquery-color.png");
+    });
+}, function(){
+    $('.jquery').attr("src", function(index, attr){
+        return attr.replace("jquery-color.png", "jquery.png");
+    });
+});
 
+$('.imgic5').hover(function(){
+    $(".bootstrap").attr("src", function(index, attr){
+        return attr.replace("bootsrap.png", "bootsrap-color.png");
+    });
+}, function(){
+    $('.bootstrap').attr("src", function(index, attr){
+        return attr.replace("bootsrap-color.png", "bootsrap.png");
+    });
+});
 
 
 

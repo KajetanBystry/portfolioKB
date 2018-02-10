@@ -8,8 +8,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+            <link rel="shortcut icon" href="img/kb.jpg"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -17,7 +18,7 @@
 
 <body>
     <nav id="navbar" class= 'navbar navbar-expand-lg navbar-light fixed-top'>
-       <div id='top' ><a href="#header"><i class="fa fa-caret-up" aria-hidden="true"></i></a></div>
+       <div id='top' ><a href="#header"><i class="fas fa-caret-up fa-4x" aria-hidden="true"></i></a></div>
        <button id='navbtn' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -41,8 +42,9 @@
     <section id="omnie" class="container-fluid">
         <h2>O <span>mnie</span></h2>
         <div id="omniecont" class="row">
-        <figure class="col-sm-12 col-md-6"><img src="img/Kajetan%20Bystry.jpg" alt="jan"></figure>
-        <p class="col-sm-12 col-md-6">Witam Państwa serdecznie!<br><br> Nazywam się Kajetan Bystry. Jestem autorem poniższej strony. Powstała ona celem przedstawienia moich umiejętności przyszłemu pracodawcy. <br><br> W listopadzie 2017 roku ukończyłem intensywny kurs programowania Akademii 108. Zgłębiając narzędzia umożliwiające tworzenie stron internetowych, pojawiła się u mnie fascynacja tematem i chęć rozwoju moich umiejętności. Front-end development szybko stał się dla mnie pasją i wybrałem go jako moją ścieżkę kariery.</p>
+        <figure class="omnieborder col-sm-12 col-md-6"><img src="img/Kajetan_Bystry.jpg" alt="Kajetan Bystry"></figure>
+        <div class="col-sm-12 col-md-6"><h6>Witam Państwa serdecznie!</h6><p>Nazywam się Kajetan Bystry. Jestem autorem poniższej strony. Powstała ona celem przedstawienia moich umiejętności przyszłemu pracodawcy.</p><p>W listopadzie 2017 roku ukończyłem intensywny kurs programowania Akademii 108. Zgłębiając narzędzia umożliwiające tworzenie stron internetowych, pojawiła się u mnie fascynacja tematem i chęć rozwoju moich umiejętności. Front-end development szybko stał się dla mnie pasją i wybrałem go jako moją ścieżkę kariery.</p>
+            </div>
      </div>
     </section>
    
@@ -50,38 +52,50 @@
         <h2>Moje <span>umiejętności</span></h2>
         <p>Intensywny kurs front-end developmentu i moje własne ćwiczenia sprawiły, że  poniższymi narzędziami posługuję się swobodnie.</p>
         <div id="ikony" class="row">
-            <figure class='col-sm-6 col-md-3 imgic'>
-                <img src="icons/html5.png" alt="html5">
+            <figure class='col-sm-6 col-md-2 imgic imgic1'>
+                <i class="fab fa-html5 fa-5x"></i>
                 <figcaption>HTML5</figcaption>
             </figure>
-            <figure class='col-sm-6 col-md-3 imgic'>
-                <img src="icons/css3.png" alt="css">
+            <figure class='col-sm-6 col-md-2 imgic imgic2'>
+                <i class="fab fa-css3-alt fa-5x"></i>
                 <figcaption>CSS3</figcaption>
             </figure>
 
-            <figure class='col-sm-6 col-md-3 imgic'>
-                <img src="icons/js.png" alt="javascript">
+            <figure class='col-sm-6 col-md-2 imgic imgic3'>
+                <i class="fab fa-js-square fa-5x"></i>
                 <figcaption>JavaScrip
                     <div id='niepatrz'>t</div>
                 </figcaption>
             </figure>
 
-            <figure class='col-sm-6 col-md-3 imgic'>
-                <img src="icons/jquery.png" alt="que">
+            <figure class='col-sm-6 col-md-2 imgic imgic4'>
+                <img class='jquery' src="icons/jquery.png" alt="que">
                 <figcaption>jQuery</figcaption>
             </figure>
+            
+            <figure class='col-sm-6 col-md-2 imgic imgic5'>
+                <img class='bootstrap' src="icons/bootsrap.png" alt="que">
+                <figcaption>Bootstrap</figcaption>
+            </figure>
+            
+            <figure class='col-sm-6 col-md-2 imgic imgic6'>
+                <i class="fab fa-sass fa-5x"></i>
+                <figcaption>SASS</figcaption>
+            </figure>
+            
+            
         </div>
     </section>
     <section id='zdjkomp' class="container-fluid">
         <h2>Moje <span>portfolio</span></h2>
-        <div id="projects" class="row">
+        <div class="row projects">
         <div class="trzyob pierwszy col-sm-12 col-md-4">
             <div class="sr maska">
                 <div class="sr border">
                     <div class="content">
                         <h3>Przykładowa strona</h3> Projekt przykładowej strony z wykorzystaniem narzędzi SASS i Bootstrap. <br>
                         <h3>Wykorzystane technologie</h3>HTML5, CSS3, Bootstrap, Javascript, Jquery, SASS<br><br>
-                        <a href="podstrony/portfolio2/examplepage.html"><i class="fa fa-chain fa-2x"></i></a>
+                        <a href="podstrony/portfolio2/examplepage.html"><i class="fas fa-link fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -93,7 +107,7 @@
                         <h3>Powieść</h3> Moje zainteresowania nie ograniczają się jedynie do front-end developingu. Z dumą pragnę przedstawić Państwu pierwsze strony mojej powieści.<br>
                         <h3>Wykorzystane technologie</h3>HTML5, CSS3, 
                         Javascript<br><br>
-                        <a href="podstrony/Infinitescroll/infinite.html"><i class="fa fa-chain fa-2x"></i></a>
+                        <a href="podstrony/Infinitescroll/infinite.html"><i class="fas fa-link fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -104,12 +118,39 @@
                     <div class="content">
                         <h3>Kalkulator</h3> Kalkulator oparty na Javascript. Jest to jedno z podstawowych zadań wykonywanych przy nauce języka Javascript. Kalkulator wykonałem całkowicie samemu opierając się na dokumentacji znalezionej w Internecie.<br>
                         <h3>Wykorzystane technologie</h3>HTML5, CSS3, Javascript<br><br>
-                        <a href="podstrony/kalkulator/kalkulator.html"><i class="fa fa-chain fa-2x"></i></a>
+                        <a href="podstrony/kalkulator/kalkulator.html"><i class="fas fa-link fa-2x"></i></a>
                     </div>
                 </div>
             </div>
            
         </div>
+    </div>
+    <div class="row projects2">
+        <div class="trzyob czwarty col-sm-12 col-md-4">
+            <div class="sr maska">
+                <div class="sr border">
+                    <div class="content">
+                        <h3>Studio kosmetyczne Freya</h3> Mój pierwszy poważny projekt strony.<br>
+                        <h3>Wykorzystane technologie</h3>HTML5, CSS3, Bootstrap, Javascript, Jquery<br><br>
+                        <a href="https://kajetanbystry.github.io/freya/"><i class="fas fa-link fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <div class="trzyob drugi col-sm-12 col-md-4">
+            <div class="sr maska">
+                <div class="sr border">
+                    <div class="content">
+                        <h3>Powieść</h3> Moje zainteresowania nie ograniczają się jedynie do front-end developingu. Z dumą pragnę przedstawić Państwu pierwsze strony mojej powieści.<br>
+                        <h3>Wykorzystane technologie</h3>HTML5, CSS3, 
+                        Javascript<br><br>
+                        <a href="podstrony/Infinitescroll/infinite.html"><i class="fas fa-link fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
     </div>
     </section>
     <section id="stopka" class="container-fluid">
@@ -125,8 +166,8 @@
                     email: <a href="mailto:kajetanbystry@gmail.com">kajetanbystry@gmail.com</a>
                 </address><br><br>
             <div id="linki">
-                <a href="https://www.facebook.com/kajetan.bystry?ref=bookmarks"><i class='fa fa-facebook'></i></a>
-                <a href="https://www.linkedin.com/in/kajetan-bystry/"><i class='fa fa-linkedin'></i></a>
+                <a href="https://www.facebook.com/kajetan.bystry?ref=bookmarks"><i class='fab fa-facebook-f'></i></a>
+                <a href="https://www.linkedin.com/in/kajetan-bystry/"><i class='fab fa-linkedin-in'></i></a>
             </div>
         </div>
         <form action="https://formspree.io/kajetanbystry@gmail.com" method="post" class='col-sm-12 col-md-6'>
@@ -153,7 +194,7 @@
 
     <footer>Copyright Kajetan Bystry</footer>
 
-    
+    <script defer src="fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js'></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script src='bootstrap/js/bootstrap.min.js'></script>

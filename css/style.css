@@ -122,6 +122,12 @@ box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
 #omnie h2{
         padding-bottom: 20px;
     }
+#omnie h6{
+    font-weight: 600;
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
 #omnie #omniecont{
     text-align: center;
     justify-content: flex-end;
@@ -131,15 +137,23 @@ box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
 text-align: left;
     font-size: 20px;
 }
+#omnie #omniecont p:hover{
+text-shadow: 0.5px 0.5px 0.5px #000000;
+}
 #omnie figure img{
     height: 350px;
-    border: 5px solid white;
-    border-radius: 15px;
-    
+}
+#omnie .omnieborder{
+    border: 2px solid;
+    border-left-color: transparent;
+    border-right-color: #1ac056;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    padding: 0;
 }
 #umie{
 text-align: center; 
-    padding: 40px 100px;
+padding: 40px 100px;
 }
 #umie h2, #umie p{
     padding: 20px 0;
@@ -147,16 +161,62 @@ text-align: center;
 #umie #ikony{
     justify-content: flex-end;
     padding: 20px 300px;
+        
 }
 #umie .imgic{
     padding: 0px 10px;
+    transition: all 0.4s
 }
+#umie .imgic4 .jquery{
+height: 70px;
+margin-top: 7px;
+}
+#umie .imgic5 .bootstrap{
+    height: 72px;
+    margin-top: 7px;
+
+}
+#umie .imgic1:hover{
+    color: orangered;
+    transform: scale(1.5);
+}
+#umie .imgic2:hover{
+    color: cadetblue;
+    transform: scale(1.5);
+}
+#umie .imgic3:hover{
+    color: gold;
+    transform: scale(1.5);
+}
+#umie .imgic4:hover{
+        color: #ff5757;
+    transform: scale(1.5);
+}
+#umie .imgic5:hover{
+    color: #62488a;
+    transform: scale(1.5);
+}
+#umie .imgic6:hover{
+    color: mediumpurple;
+    transform: scale(1.5);
+}
+#umie .bootstrapcolor{
+    border: 1px solid;
+}
+
 #zdjkomp{
     text-align: center;
     padding: 60px 30px;
 }
 #zdjkomp h2{
     padding-bottom: 40px;
+}
+#zdjkomp .projects{
+    margin-bottom: 20px;
+}
+#zdjkomp .projects2{
+    display: flex;
+    justify-content: center;
 }
 #zdjkomp a{
     color: #FFF;
@@ -178,6 +238,10 @@ background-size: cover;
 }
 #zdjkomp .trzyob.trzeci{
     background: url(../img/kalkulatorgif.gif) center center no-repeat;
+background-size: cover;
+}
+#zdjkomp .trzyob.czwarty{
+    background: url(../img/freya.gif) center center no-repeat;
 background-size: cover;
 }
 .sr{
@@ -205,6 +269,7 @@ background-size: cover;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
+    width: 100%
 }
 #stopka{
     text-align: center;
@@ -319,6 +384,7 @@ footer{
 }
 #niepatrz{
     display: inline;
+    cursor: pointer;
 }
 #hidden{
     position: fixed;
