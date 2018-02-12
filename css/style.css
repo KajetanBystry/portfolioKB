@@ -165,7 +165,8 @@ padding: 40px 100px;
 }
 #umie .imgic{
     padding: 0px 10px;
-    transition: all 0.4s
+    transition: all 0.4s;
+    padding-right: 20px
 }
 #umie .imgic4 .jquery{
 height: 70px;
@@ -203,7 +204,9 @@ margin-top: 7px;
 #umie .bootstrapcolor{
     border: 1px solid;
 }
-
+#umie figcaption{
+    font-size: 14px;
+}
 #zdjkomp{
     text-align: center;
     padding: 60px 30px;
@@ -385,6 +388,7 @@ footer{
 #niepatrz{
     display: inline;
     cursor: pointer;
+    width: 10%
 }
 #hidden{
     position: fixed;
