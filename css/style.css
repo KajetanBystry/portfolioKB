@@ -247,6 +247,10 @@ background-size: cover;
     background: url(../img/freya.gif) center center no-repeat;
 background-size: cover;
 }
+#zdjkomp .trzyob.piaty{
+    background: url(../img/teatr.gif) center center no-repeat;
+background-size: cover;
+}
 .sr{
     height: 100%;
     
