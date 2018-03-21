@@ -280,6 +280,10 @@ background-size: cover;
     background: url(../img/teatr.gif) center center no-repeat;
 background-size: cover;
 }
+#zdjkomp .trzyob.szosty{
+      background: url(../img/wildflyergif.gif) center center no-repeat;
+background-size: cover;  
+}
 .sr{
     height: 100%;
     
