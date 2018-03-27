@@ -1,6 +1,6 @@
 body {
     background-color: #FFF;
-    font-family: 'Lato';
+font-family: 'Cambay', sans-serif;
     margin: 0;
 }
 #first{
@@ -11,9 +11,12 @@ body {
     z-index: 1;
     margin: 0;
 }
-#enter a{
+#middle a{
     text-decoration: none;
     color: #FFF;
+}
+a #enter{
+    margin-bottom: 20px;
 }
 #middle{
     width: 50%;
@@ -61,29 +64,47 @@ height: 20px;
     left: 0;
     right: 0;
     bottom: 0;
-padding: 120px 20px;
+    height: 100%;
+    margin-bottom: 20px;
+/*padding: 120px 20px;*/
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #navbar {
     background-color: #FFF;
-    height: 60px;
     z-index: 0;
     margin: 0;
+    padding: 0 20px;
 }
 #navbarNav{
      justify-content: flex-end;
+    height: 100%;
 }
 #navbarNav a{
-    color: #1ac056;
+    color: #C62828;
     font-size: 20px;
-    line-height: 60px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navbarNav a:hover{
+    color: #FFF;
+    background-color: #B71C1C;
+    transition: 0.4s;
+}
+#navbar .activated{
+    color: #FFF;
+    background-color: #B71C1C;
+    transition: 0.4s;
 }
 #top{
     margin-left: 30px;
     display: inline;
 }
 #top a{
-    color: #1ac056;
+    color: #B71C1C;
 }
 #top .fa{
     font-size: 50px;
@@ -91,7 +112,7 @@ padding: 120px 20px;
 header {
     position: relative;
     width: 100%;
-    background: url("../img/header-background.jpg") center top no-repeat;
+    background: url("../img/header.jpg") center top no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -104,10 +125,17 @@ header #welcome {
     transform: translateY(-50%);
     text-align: center;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+     font-family: 'Cormorant', serif;
+    font-weight: 700;
     padding: 50px 0;/
 }
-
+#maskplease{
+    height: 100%;
+        width:100%;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0;
+    padding: 0;
+}
 #welcome h1, #welcome h2{
     font-weight: 300;
     font-size: 100px;
@@ -116,7 +144,7 @@ header #welcome {
 }
 
 span {
-    color: #1ac056;
+    color: #B71C1C;
     font-weight: bold;
 }
 h2{
@@ -132,155 +160,155 @@ h2{
     height: 800px;
 }
 
-#omnie{
+#aboutme{
     overflow: hidden;
     background-color: #f9fcfe;
     -webkit-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
 -moz-box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
 box-shadow: 0px 10px 5px 0px rgba(163,163,163,1);
- margin: 20px 0;   
+ margin: 20px 0; 
 }
-#omnie{
+#aboutme{
     text-align: center;
     padding: 60px 0;
     padding-right: 100px;
 }
-#omnie h2, #zdjkomp h2, #umie h2{
+#aboutme h2, #kompphotos h2, #umie h2{
     font-size: 30px;
     }
-#omnie h2{
+#aboutme h2{
         padding-bottom: 20px;
     }
-#omnie h6{
+#aboutme h6{
     font-weight: 600;
     text-align: left;
     font-size: 22px;
     margin-bottom: 20px;
 }
-#omnie #omniecont{
+#aboutme #aboutmecont{
     text-align: center;
     justify-content: flex-end;
     margin: 20px 0;
 }
-#omnie #omniecont p {
+#aboutme #aboutmecont p {
 text-align: left;
     font-size: 20px;
 }
-#omnie #omniecont p:hover{
-text-shadow: 0.5px 0.5px 0.5px #000000;
-}
-#omnie figure img{
+
+#aboutme figure img{
     height: 350px;
 }
-#omnie .omnieborder{
+#aboutme .aboutmeborder{
     border: 2px solid;
     border-left-color: transparent;
-    border-right-color: #1ac056;
+    border-right-color: #EF5350;
     border-top-color: transparent;
     border-bottom-color: transparent;
     padding: 0;
+    
 }
-#umie{
+#skills{
 text-align: center; 
 padding: 40px 100px;
 }
-#umie h2, #umie p{
+#skills h2, #skills p{
     padding: 20px 0;
 }
-#umie #ikony{
+#skills #icons{
     justify-content: flex-end;
-    padding: 20px 300px;
+    padding: 20px 180px;
         
 }
-#umie .imgic{
-    padding: 0px 10px;
+#skills .imgic{
+    padding: 0;
+/*    margin: 0px 10px;*/
     transition: all 0.4s;
-    padding-right: 20px
+    
 }
-#umie .imgic4 .jquery{
+#skills .imgic4 .jquery{
 height: 70px;
 margin-top: 7px;
 }
-#umie .imgic5 .bootstrap{
+#skills .imgic5 .bootstrap{
     height: 72px;
     margin-top: 7px;
 
 }
-#umie .imgic1:hover{
+#skills .imgic1:hover{
     color: orangered;
     transform: scale(1.5);
 }
-#umie .imgic2:hover{
+#skills .imgic2:hover{
     color: cadetblue;
     transform: scale(1.5);
 }
-#umie .imgic3:hover{
+#skills .imgic3:hover{
     color: gold;
     transform: scale(1.5);
 }
-#umie .imgic4:hover{
+#skills .imgic4:hover{
         color: #ff5757;
     transform: scale(1.5);
 }
-#umie .imgic5:hover{
+#skills .imgic5:hover{
     color: #62488a;
     transform: scale(1.5);
 }
-#umie .imgic6:hover{
+#skills .imgic6:hover{
     color: mediumpurple;
     transform: scale(1.5);
 }
-#umie .bootstrapcolor{
+#skills .bootstrapcolor{
     border: 1px solid;
 }
-#umie figcaption{
+#skills figcaption{
     font-size: 14px;
 }
-#zdjkomp{
+#kompphotos{
     text-align: center;
     padding: 60px 30px;
 }
-#zdjkomp h2{
+#kompphotos h2{
     padding-bottom: 40px;
 }
-#zdjkomp .projects{
+#kompphotos .projects{
     margin-bottom: 20px;
 }
-#zdjkomp .projects2{
+#kompphotos .projects2{
     display: flex;
     justify-content: center;
 }
-#zdjkomp a{
+#kompphotos a{
     color: #FFF;
 }
-#zdjkomp .trzyob h3{
+#kompphotos .trzyob h3{
     padding-top: 15px;
 }
-#zdjkomp .trzyob{
+#kompphotos .trzyob{
     height: 375px;
     padding: 0;
 }
-#zdjkomp .trzyob.pierwszy{
+#kompphotos .trzyob.first{
     background: url(../img/portfolio2.gif) center center no-repeat;
     background-size: cover;
 }
-#zdjkomp .trzyob.drugi{
-background: url(../img/ezgif.com-video-to-gif.gif) center center no-repeat;
+#kompphotos .trzyob.second{
+background: url(../img/scroll.gif) center center no-repeat;
 background-size: cover;
 }
-#zdjkomp .trzyob.trzeci{
+#kompphotos .trzyob.third{
     background: url(../img/kalkulatorgif.gif) center center no-repeat;
 background-size: cover;
 }
-#zdjkomp .trzyob.czwarty{
+#kompphotos .trzyob.fourth{
     background: url(../img/freya.gif) center center no-repeat;
 background-size: cover;
 }
-#zdjkomp .trzyob.piaty{
+#kompphotos .trzyob.fifth{
     background: url(../img/teatr.gif) center center no-repeat;
 background-size: cover;
 }
-#zdjkomp .trzyob.szosty{
+#kompphotos .trzyob.sixth{
       background: url(../img/wildflyergif.gif) center center no-repeat;
 background-size: cover;  
 }
@@ -288,12 +316,12 @@ background-size: cover;
     height: 100%;
     
 }
-.maska:hover{
+.transp:hover{
     opacity: 1;
 }
 
-.maska{
-    background-color: rgba(33,59,80,0.6);
+.transp{
+    background-color: rgba(183,28,28,0.6);
     padding: 5px;
     transition: all 0.4s;
     opacity: 0;
@@ -311,53 +339,64 @@ background-size: cover;
     position: absolute;
     width: 100%
 }
-#stopka{
+#contact{
+/*    background-color: rgba(255,255,255,0.8);*/
+    height: 100%;
+    width: 100%;
+}
+#footing{
     text-align: center;
-    background-color: #213b50;
+        background: url(../img/phone.jpeg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 60px 30px;
     margin: 0;
     padding: 70px 120px;
 }
-#dane{
+#info{
     text-align: left;
-    background-color: #213b50;
+
 }
-#dane h2, #dane address{
-    color: #FFF;
+#info h2, #dane address{
+    color: #000;
     font-weight: 300;
 }
-#dane h2{
+#info h2{
     font-size: 50px;
     padding-top: 20px;
 }
-#dane address, #dane address a
+#info address, #dane address a
 {
     font-size: 25px;
     font-style: normal; 
 }
-#dane address a{
-    color: #1ac056;
+#info address a{
+    color: #B71C1C;
     font-weight: bold;
 }
-#linki a{
+#paths a{
     box-sizing: border-box;
     text-align: center;
     display: inline-block;
     font-size: 30px;
     border-width: 4px 4px 4px 4px;
     border-style: solid;
-    color: #FFF;
+    color: #000;
     height: 80px;
     line-height: 80px;
     width: 80px;
 }
-    
-#stopka form{
-    background-color: #213b50;
+#paths a:hover{
+    color: #EF5350;
+    transition: 0.4s;
+}
+#footing form{
+/*    background-color: #213b50;*/
     padding-top: 20px;
 }
-#stopka form p{
-    color: #FFF;
+#footing form p{
+    color: #000;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
 }
 input, textarea{
     border: none;
@@ -366,13 +405,13 @@ input, textarea{
 }
 form input[type='text'], form input[type='email'], form textarea{
     width: 100%;
-    background-color: #2b4a64;
+    background-color: #a00400;
     color: #FFF;
 }
 form input[type='submit']{
     float: right;
     font-size: 10px;
-    background-color: #1ac056;
+    background-color: #B71C1C;
     color: #FFF;
     font-family: "Roboto";
     font-weight: bolder;
@@ -380,11 +419,12 @@ form input[type='submit']{
     padding: 10px 30px;
 }
 form input[type='submit']:hover{
-    background-color: darkgreen;
+    background-color: #EF5350;
+    transition: 0.4s;
 }
 form input:focus,
 textarea:focus {
-    background-color: #4e708c;
+    background-color: #EF5350;
     border: 1px solid #FFF;
 }
 
@@ -414,7 +454,7 @@ textarea:-moz-placeholder { /* Firefox 18- */
 }
 footer{
     text-align: left;
-    background-color: #020833;
+    background-color: #ef5350;
     color: white;
     margin: 0;
     padding: 8px 100px;
@@ -481,6 +521,5 @@ background-size:cover;
     color: #FFF;
     padding-left: 80px;
     padding-top: 200px;
-/*    line-height: 350px;*/
     font-size: 20px;
 }

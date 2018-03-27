@@ -1,24 +1,27 @@
 $(document).ready (function(){
-   $('#navbar').find('a').click(function(){
-       if(this.hash !== ''){
-           event.preventDefault();
-           var hash = this.hash;
-           $('html, body').animate({
-               scrollTop: $(hash).offset().top
-           }, 800, function(){
-               window.location.hash = hash;
-           })
-       }
-   })
-    $("body").css("overflow", "hidden");
+//   $('#navbar').find('a').click(function(){
+//       if(this.hash !== ''){
+//           event.preventDefault();
+//           var hash = this.hash;
+//           $('html, body').animate({
+//               scrollTop: $(hash).offset().top
+//           }, 800, function(){
+//               window.location.hash = hash;
+//           })
+//       }
+//   })
+//    $("body").css("overflow", "hidden");
+    var scrollPosition = [
+  self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+  self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+];
+var html = $('html'); // it would make more sense to apply this to body, but IE7 won't have that
+html.data('scroll-position', scrollPosition);
+html.data('previous-overflow', html.css('overflow'));
+html.css('overflow', 'hidden');
+$('window').scrollTo(scrollPosition[0], scrollPosition[1]);
 });
 
-
-$('#niepatrz').click(function(){
-    $('#hidden').animate({
-    height:'350px'}, 3000)
-   
-});
 
 $('#ukryty').click(function(){
     $('#hidden').animate({

@@ -15,6 +15,8 @@
    <meta property="og:description" content="Tworzenie responsywnych stron i elementów. Elegancja prostota i funkcjonalność.">
    <meta property="og:site_name" content="Kajetan Bystry – front-end developer portfolio">
    <meta property="og:url" content="https://kajetanbystry.github.io/portfolioKB/">
+<link href="https://fonts.googleapis.com/css?family=Cambay:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Cormorant:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="/fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">
@@ -33,8 +35,8 @@
   </button>
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="#omnie">o mnie</a></li>
-            <li class="nav-item"><a class="nav-link" href="#umie">umiejętności</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#aboutme">o mnie</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">umiejętności</a></li>
             <li class="nav-item"><a class="nav-link" href="#zdjkomp">portfolio</a></li>
             <li class="nav-item"><a class="nav-link" href="#stopka">kontakt</a></li>
         </ul>
@@ -42,52 +44,54 @@
     </nav>
 
     <header id="header">
+       <div id="maskplease">
         <div id="welcome">
             <h1>Kajetan <span> Bystry</span></h1>
             <h2>Front-End Developer</h2>
         </div>
+        </div>
     </header>
 
-    <section id="omnie" class="container-fluid">
+    <section id="aboutme" class="container-fluid">
         <h2>O <span>mnie</span></h2>
-        <div id="omniecont" class="row">
-        <figure class="omnieborder col-sm-12 col-md-6"><img src="img/Kajetan_Bystry.jpg" alt="Kajetan Bystry"></figure>
+        <div id="aboutmecont" class="row">
+        <figure class="aboutmeborder col-sm-12 col-md-6"><img src="img/Kajetan_Bystry.jpg" alt="Kajetan Bystry"></figure>
         <div class="col-sm-12 col-md-6"><h6>Witam Państwa serdecznie!</h6><p>Nazywam się Kajetan Bystry. Jestem autorem poniższej strony. Powstała ona celem przedstawienia moich umiejętności przyszłemu pracodawcy.</p><p>W listopadzie 2017 roku ukończyłem intensywny kurs programowania Akademii 108. Zgłębiając narzędzia umożliwiające tworzenie stron internetowych, pojawiła się u mnie fascynacja tematem i chęć rozwoju moich umiejętności. Front-end development szybko stał się dla mnie pasją i wybrałem go jako moją ścieżkę kariery.</p>
             </div>
      </div>
     </section>
    
-    <section id="umie" class="container-fluid">
+    <section id="skills" class="container-fluid">
         <h2>Moje <span>umiejętności</span></h2>
         <p>Intensywny kurs front-end developmentu i moje własne ćwiczenia sprawiły, że  poniższymi narzędziami posługuję się swobodnie.</p>
-        <div id="ikony" class="row">
-            <figure class='col-sm-6 col-md-2 imgic imgic1'>
+        <div id="icons" class="row">
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic1'>
                 <i class="fab fa-html5 fa-5x"></i>
                 <figcaption>HTML5</figcaption>
             </figure>
-            <figure class='col-sm-6 col-md-2 imgic imgic2'>
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic2'>
                 <i class="fab fa-css3-alt fa-5x"></i>
                 <figcaption>CSS3</figcaption>
             </figure>
 
-            <figure class='col-sm-6 col-md-2 imgic imgic3'>
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic3'>
                 <i class="fab fa-js-square fa-5x"></i>
                 <figcaption>JavaScrip
                     <div id='niepatrz'>t</div>
                 </figcaption>
             </figure>
 
-            <figure class='col-sm-6 col-md-2 imgic imgic4'>
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic4'>
                 <img class='jquery' src="icons/jquery.png" alt="que">
                 <figcaption>jQuery</figcaption>
             </figure>
             
-            <figure class='col-sm-6 col-md-2 imgic imgic5'>
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic5'>
                 <img class='bootstrap' src="icons/bootsrap.png" alt="que">
                 <figcaption>Bootstrap</figcaption>
             </figure>
             
-            <figure class='col-sm-6 col-md-2 imgic imgic6'>
+            <figure class='col-6 col-sm-4 col-md-2 imgic imgic6'>
                 <i class="fab fa-sass fa-5x"></i>
                 <figcaption>SASS</figcaption>
             </figure>
@@ -95,11 +99,11 @@
             
         </div>
     </section>
-    <section id='zdjkomp' class="container-fluid">
+    <section id='kompphotos' class="container-fluid">
         <h2>Moje <span>portfolio</span></h2>
         <div class="row projects">
-        <div class="trzyob pierwszy col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob first col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
                         <h3>Przykładowa strona</h3> Projekt przykładowej strony z wykorzystaniem narzędzi SASS i Bootstrap. <br>
@@ -109,8 +113,8 @@
                 </div>
             </div>
         </div>
-        <div class="trzyob drugi col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob second col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
                         <h3>Powieść</h3> Moje zainteresowania nie ograniczają się jedynie do front-end developmentu. Z dumą pragnę przedstawić Państwu pierwsze strony mojej powieści.<br>
@@ -121,8 +125,8 @@
                 </div>
             </div>
         </div>
-        <div class="trzyob trzeci col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob third col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
                         <h3>Kalkulator</h3> Kalkulator oparty na Javascript. Jest to jedno z podstawowych zadań wykonywanych przy nauce języka Javascript. Kalkulator wykonałem całkowicie samemu opierając się na dokumentacji znalezionej w Internecie.<br>
@@ -135,8 +139,8 @@
         </div>
     </div>
     <div class="row projects2">
-        <div class="trzyob czwarty col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob fourth col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
                         <h3>Studio kosmetyczne Freya</h3> Mój pierwszy poważny projekt strony. Strona w pełni wykonana przeze mnie łącznie z doborem niektórych zdjęć i ich edycją.<br>
@@ -146,11 +150,11 @@
                 </div>
             </div>
         </div>
-        <div class="trzyob piaty col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob fifth col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
-                        <h3>Strona Teatr Oddzielny</h3>Stworzona przeze mnie strona mojego amatorskiego teatru<br>
+                        <h3>Strona Teatr Oddzielny</h3>Stworzona przeze mnie strona mojego amatorskiego teatru.<br>
                         <h3>Wykorzystane technologie</h3>HTML5, CSS3, 
                         Javascript<br><br>
                         <a href="http://www.teatroddzielny.pl"><i class="fas fa-link fa-2x"></i></a>
@@ -158,8 +162,8 @@
                 </div>
             </div>
         </div>
-        <div class="trzyob szosty col-sm-12 col-md-4">
-            <div class="sr maska">
+        <div class="trzyob sixth col-sm-12 col-md-4">
+            <div class="sr transp">
                 <div class="sr border">
                     <div class="content">
                         <h3>Strona Wildflyer</h3> Strona firmy swiadczącej usługi turystyczne(projekt w trakcie realizacji).<br>
@@ -171,9 +175,9 @@
         </div>
     </div>
     </section>
-    <section id="stopka" class="container-fluid">
+    <section id="footing" class="container-fluid">
        <div id="contact" class='row'>
-        <div id="dane" class='col-sm-12 col-md-6'>
+        <div id="info" class='col-sm-12 col-md-6'>
             <h2>Kajetan <span>Bystry</span></h2>
             <address>
                     ul. Cegielniana 24/34<br>
@@ -183,16 +187,16 @@
                     nr. tel. 537 736 316<br>
                     email: <a href="mailto:kajetanbystry@gmail.com">kajetanbystry@gmail.com</a>
                 </address><br><br>
-            <div id="linki">
+            <div id="paths">
                 <a href="https://www.facebook.com/kajetan.bystry?ref=bookmarks"><i class='fab fa-facebook-f'></i></a>
                 <a href="https://www.linkedin.com/in/kajetan-bystry/"><i class='fab fa-linkedin-in'></i></a>
             </div>
         </div>
-        <form action="https://formspree.io/kajetanbystry@gmail.com" method="post" class='col-sm-12 col-md-6'>
-           <p>Dziękuję za przejrzenie mojego portfolio! Zapraszam do kontaktu! <br>Formularz prześle dane na mojego maila. </p>
-            <input name='name' type="text" placeholder="Imię i nazwisko / Nazwa firmy"><br><br>
-            <input name='email' type="email" placeholder="E-mail"><br><br>
-            <textarea name="wiadomosc" id="" cols="30" rows="6" placeholder="Treść wiadomości"></textarea><br><br>
+        <form id='myform' action="https://formspree.io/kajetanbystry@gmail.com" method="post" class='col-sm-12 col-md-6'>
+           <p class='read'>Dziękuję za przejrzenie mojego portfolio! Zapraszam do kontaktu! <br>Formularz prześle dane na mojego maila. </p>
+            <input class='name' name='name' type="text" placeholder="Imię i nazwisko / Nazwa firmy"><br><br>
+            <input class='mail' name='email' type="email" placeholder="E-mail"><br><br>
+            <textarea class='msg' name="wiadomosc"  cols="30" rows="6" placeholder="Treść wiadomości"></textarea><br><br>
             <input type="submit" value="WYŚLIJ">
         </form>
         </div>

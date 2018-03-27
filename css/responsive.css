@@ -1,14 +1,5 @@
 @media all and (max-width:992px) {
   
-    #omnie{
-        padding: 30px 0;
-    }
-    #umie{
-
-        padding: 40px 0;}
-    #umie #ikony{
-        padding: 20px 0;
-    }
     #hidden span{
         border-radius: 0%;
         font-size: 20px;
@@ -23,6 +14,35 @@
     #middle{
         width: 100%;
         height: 100%;
+    }
+}
+@media all and (max-width:990px){
+    #aboutme{
+        padding: 30px 0;
+    }
+    #skills #icons{
+        padding: 10px 50px;
+    }
+}
+@media all and (max-width:770px){
+    #aboutme .aboutmeborder{
+    border: 0;
+    }
+    #aboutme #aboutmecont p{
+        font-size: 19px;
+    }
+}
+@media all and (max-width:590px){
+#skills #icons{
+        padding: 10px 0px;
+    }
+    #skills{
+        padding: 10px 0px;
+    }
+}
+@media all and (max-width:560px){
+    #stopka{
+        padding: 30px 50px;
     }
 }
 @media all and (max-width:460px){
@@ -58,8 +78,41 @@
         padding: 0 0;
         color: black;
     }
+    #skills #icons{
+        padding: 10px 0;
+    }
+}
+@media all and (max-width:430px){
+    #footing{
+        padding: 20px 25px;
+    }
 }
 
+@media all and (max-width:400px){
+    #footing{
+        padding: 20px 20px;
+    }
+    #info{
+        text-align: center;
+    }
+}
+@media all and (max-width:380px){
+    #info address, #dane address a{
+        font-size: 20px;
+    }
+    
+}
+@media all and (max-width:360px){
+    #info h2{
+        font-size: 40px;
+    }
+}
 
-
-@media all and (max-width:) {}
+@media all and (max-width: 320px) {
+    #middle p{
+        padding-top: 60px;
+    }
+    #middle #enter{
+        bottom: 20px;
+    }
+}

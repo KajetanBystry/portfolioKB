@@ -1,6 +1,9 @@
 var ekran = document.getElementById("wpisz")
 var dzialanie
 var przyciski = document.getElementsByClassName('btn');
+var ekraninside = ekran.textContent;
+var array
+var lastelement
 
 
 function wcisnijDodatkowy() {
@@ -65,44 +68,72 @@ function wcisnijLiczba() {
 }
     wcisnijLiczba();
 
-    function wcisnijDzialanie() {
+wcisnijDzialanie();
+function wcisnijDzialanie() {
         przyciski[1].onclick = function () {
+                        array = dzialanie.split('');
+            lastelement = array[array.length-1];
             if (ekran.innerHTML === '') {
             dzialanie = ekran.innerHTML += ''
-        } else {
+            } else if ((lastelement == '%')||(lastelement == '+')||(lastelement == '-')||(lastelement == '*')||(lastelement == '/')) {
+            dzialanie = ekran.innerHTML += ''
+        }
+         else {
             dzialanie = ekran.innerHTML = ekran.innerHTML.concat('%')
-        }};
+        }
+        };
         przyciski[2].onclick = function () {
+                        array = dzialanie.split('');
+            lastelement = array[array.length-1];
           if (ekran.innerHTML === '') {
             dzialanie = ekran.innerHTML += ''
+        } else if ((lastelement == '%')||(lastelement == '+')||(lastelement == '-')||(lastelement == '*')||(lastelement == '/')) {
+            dzialanie = ekran.innerHTML += ''     
         } else {
             dzialanie = ekran.innerHTML = ekran.innerHTML.concat('+')
-        }
+            }
         };
         przyciski[6].onclick = function () {
+            array = dzialanie.split('');
+            lastelement = array[array.length-1];
+            
   if (ekran.innerHTML === '') {
             dzialanie = ekran.innerHTML += ''
-        } else {
-            dzialanie = ekran.innerHTML = ekran.innerHTML.concat('-')
+        } else if ((lastelement == '%')||(lastelement == '+')||(lastelement == '-')||(lastelement == '*')||(lastelement == '/')) {
+            dzialanie = ekran.innerHTML += ''
         }
-        };
+            else{
+            dzialanie = ekran.innerHTML = ekran.innerHTML.concat('-')
+            }
+        }
+        
         przyciski[10].onclick = function () {
+                        array = dzialanie.split('');
+            lastelement = array[array.length-1];
   if (ekran.innerHTML === '') {
             dzialanie = ekran.innerHTML += ''
-        } else {
+        } else if ((lastelement == '%')||(lastelement == '+')||(lastelement == '-')||(lastelement == '*')||(lastelement == '/')) {
+            dzialanie = ekran.innerHTML += ''
+        }
+            else {
             dzialanie = ekran.innerHTML = ekran.innerHTML.concat('*')
         }
         };
         przyciski[14].onclick = function () {
+                        array = dzialanie.split('');
+            lastelement = array[array.length-1];
   if (ekran.innerHTML === '') {
             dzialanie = ekran.innerHTML += ''
-        } else {
-            dzialanie = ekran.innerHTML = ekran.innerHTML.concat('/')
+        } else if ((lastelement == '%')||(lastelement == '+')||(lastelement == '-')||(lastelement == '*')||(lastelement == '/')) {
+            dzialanie = ekran.innerHTML += ''
         }
+            else {
+            dzialanie = ekran.innerHTML = ekran.innerHTML.concat('/');
+//            this.onclick = null;
+        }     
         };
-    }
+}
 
-    wcisnijDzialanie();
 
     function liczymy() {
         przyciski[17].onclick = function () {
@@ -111,7 +142,32 @@ function wcisnijLiczba() {
             }else if(ekran.innerHTML = dzialanie){
             ekran.innerHTML = eval(dzialanie);
         }
+//            console.log(dzialanie);
+//            var array = dzialanie.split('');
+//            console.log(array);
+            
+            
+//            var lastthingarray = [];
+            
+//            lastthingarray.push(dzialanie);
+//            lastthingarray.split;
+            
+
+//            console.log(lastthingarray);
+            
     }
     }
 
-    liczymy()
+//var array = dzialanie.split('');
+//console.log(array);
+//function doit(){
+//    
+//    console.log(array);
+//}
+//for(i=0; i<przyciski.length; i++){
+//    przyciski[i].onclick = function () {
+//    doit();
+//    };
+//}
+
+    liczymy();

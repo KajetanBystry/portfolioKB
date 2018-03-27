@@ -73,11 +73,11 @@ $('.imgic5').hover(function(){
 
 $('#myform').submit(function() {
     if ($.trim($(".name").val()) === "" || $.trim($(".mail").val()) === "" || $.trim($(".mail").val()) === "") {
-        $('.read').text("Proszę o wypełnienie wszystkich pól.");
+        $('.read').text("Please fill all provided spaces.");
         $('.read').css('color', 'red');
         return false;
     }else{
-        $('.read').text("Dziękuję za przesłanie formularza :).");
+        $('.read').text("Thank you for your cooperation ;).");
         $('.read').css('color', '#000');
     }
 });
